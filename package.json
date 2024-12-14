@@ -1,0 +1,14 @@
+{
+  "name": "hono-gemini",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "hono": "^4.6.13"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241112.0"
+  }
+}
